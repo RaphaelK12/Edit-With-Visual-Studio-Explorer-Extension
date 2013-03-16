@@ -1,0 +1,30 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\BAG.EditWithVisualStudio.MainContextMenu]
+@="BAG.EditWithVisualStudio.MainContextMenu"
+
+[HKEY_CLASSES_ROOT\*\shellex\ContextMenuHandlers\BAGEditWithVisualStudio]
+@="{DB2DA8E9-8719-3AEE-8E19-279F0912FC6F}"
+
+[HKEY_CLASSES_ROOT\BAG.EditWithVisualStudio.MainContextMenu\CLSID]
+@="{DB2DA8E9-8719-3AEE-8E19-279F0912FC6F}"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB2DA8E9-8719-3AEE-8E19-279F0912FC6F}]
+@="BAG.EditWithVisualStudio.MainContextMenu"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB2DA8E9-8719-3AEE-8E19-279F0912FC6F}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="BAG.EditWithVisualStudio.MainContextMenu"
+"Assembly"="BAGEditWithVisualStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f6175182fe3d8910"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB2DA8E9-8719-3AEE-8E19-279F0912FC6F}\InprocServer32\1.0.0.0]
+"Class"="BAG.EditWithVisualStudio.MainContextMenu"
+"Assembly"="BAGEditWithVisualStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f6175182fe3d8910"
+"RuntimeVersion"="v4.0.30319"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB2DA8E9-8719-3AEE-8E19-279F0912FC6F}\ProgId]
+@="BAG.EditWithVisualStudio.MainContextMenu"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB2DA8E9-8719-3AEE-8E19-279F0912FC6F}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
